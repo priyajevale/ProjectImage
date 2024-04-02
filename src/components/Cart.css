@@ -1,0 +1,120 @@
+.cart-container {
+    position: relative;
+  }
+  .total-cart-item {
+    position: absolute;
+    top: -5px;
+    right: -18px;
+    padding: 0px 8px;
+    background-color: rgb(228, 54, 23);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  .cart-container Button {
+    font-size: 20px;
+    font-weight: 600;
+    width: 80px;
+    height:70px;
+    margin-left: 50rem;
+  }
+  .cart-container Button:hover {
+    color: tomato;
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: -20px;
+  }
+  
+  .heading p:nth-child(2) {
+    margin-left: 60px;
+  }
+  
+  .product-child {
+    padding: 5px;
+    padding-bottom: 0;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(199, 209, 61);
+    margin-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 9px 46px -12px rgb(14, 13, 13);
+  }
+  
+  .product-child_image {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+  }
+  
+  .product-child_image img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .product-child > p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .btn button {
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 1px 8px;
+    font-size: 25px;
+    border-right: 1px solid white;
+    border-radius: 5px;
+  }
+  
+  .total {
+    text-align: end;
+    margin-right: 10px;
+  }
+  
+  .purchase {
+    margin-inline: 25%;
+    border: 1px solid wheat;
+    background-color: rgb(62, 192, 62);
+    width: 50%;
+    text-align: center;
+    padding-block: 8px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .about {
+   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 95vh;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .about h1 {
+    text-align: center;
+    margin: 20px;
+    font-weight: 700;
+  }
+  
+  .about_child {
+    width: 650px;
+    margin-top: 4rem;
+  }
+  
+  .about_child p {
+      font-size: 18px;
+      margin-top: 10px;
+  }

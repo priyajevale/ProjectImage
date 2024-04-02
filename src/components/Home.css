@@ -1,0 +1,39 @@
+.tour-list {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .tour-list li {
+    display: block; /* Display list items as block */
+    margin-bottom: 10px; /* Add some spacing between tour details */
+  }
+  
+  .tour-list li:last-child {
+    margin-bottom: 0; /* Remove margin bottom from the last tour item */
+  }
+  
+  .tour-list li::after {
+    content: ''; /* Add content after each list item */
+    display: block; /* Display content as block */
+    width: 100%; /* Set width to full */
+    height: 1px; /* Set height for underline */
+    background-color: #000; /* Set underline color */
+    margin-top: 5px; /* Add spacing between tour items and underline */
+  }
+  .gen{
+    background-color: grey;
+    height: 20rem;
+  }
+  .gen h3 {
+    border:solid aliceblue ;
+    margin:60px;
+     padding:0px;
+    height:120px; 
+   text-align: center;
+  }
+.gen h3 span{
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
